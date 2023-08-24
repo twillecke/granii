@@ -18,8 +18,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 							<img
 								className="p-4 w-44 md:w-44 mx-auto align-middle"
 								src=""
-								alt=""
-								srcSet="./src/assets/logo_alpha.png"
+								alt="logo image"
+								srcSet="./src/assets/logo_alpha.PNG"
 							/>
 						</div>
 						<div className="py-4 px-8 ">
