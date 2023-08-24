@@ -6,11 +6,12 @@ import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import MenuItem from "./MenuItem";
 import WhatsApp from "./WhatsApp.jsx";
 import Instagram from "./Instagram.jsx";
+import Maps from "./Maps.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
 		<App>
-			<div className="bg-amber-100 min-h-screen">
+			<main className="bg-amber-100 min-h-screen">
 				<div className="mx-auto max-w-2xl">
 					<div className="bg-amber-100">
 						<div>
@@ -25,7 +26,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 							<h1 className="text-rose-900 text-2xl font-bold">
 								Focaccia Menu
 							</h1>
-							<hr className="h-px my-2 bg-gray-200 border-0 dark:bg-amber-300"></hr>
+							<hr className="h-px my-2 border-amber-200 border-0 rounded-md dark:bg-amber-300"></hr>
 							<div className="mt-6 flex justify-between">
 								<div></div>
 								<div className="text-rose-900 flex items-center justify-center text-xl font-medium">
@@ -36,18 +37,18 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 							<MenuItem
 								title="Alecrim e sal grosso"
 								description="Vegana"
-								price_small="$30"
+								price_small="$35"
 								price_big="$60"
 							/>
 							<MenuItem
 								title="Pêra, gorgonzola e mel"
 								description="Vegetariana"
-								price_small="$30"
-								price_big="$60"
+								price_small="$35"
+								price_big="$65"
 							/>
 							<MenuItem
 								title="Bacon, tomate cereja e alecrim"
-								price_small="$30"
+								price_small="$35"
 								price_big="$60"
 							/>
 
@@ -79,7 +80,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 										</span>
 										<p className="text-rose-900 font-medium">
 											Mande uma mensagem para o WhatsApp
-											dizendo qual sabor e tamanho deseja.
+											com o sabor e tamanho desejado.
 										</p>
 									</li>
 									<li className="flex items-start pb-4">
@@ -87,8 +88,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 											<ArrowRightIcon className="w-full h-full text-rose-900" />
 										</span>
 										<p className="text-rose-900 font-medium">
-											Os pedidos serão recebidos até às
-											18h das quintas-feiras.
+											Faça os pedidos até às 18h das
+											quintas-feiras.
 										</p>
 									</li>
 									<li className="flex items-start pb-4">
@@ -96,21 +97,23 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 											<ArrowRightIcon className="w-full h-full text-rose-900" />
 										</span>
 										<p className="text-rose-900 font-medium">
-											Retirada aos sábados, no bairro Campeche, Florianópolis - SC.
+											Retire aos sábados no bairro
+											Campeche, Florianópolis - SC.
 										</p>
 									</li>
 								</ul>
 							</div>
 						</div>
-					<hr className="h-px my-2 bg-gray-200 border-0 dark:bg-amber-300"></hr>
+						<hr className="h-px my-2 bg-gray-200 border-0 dark:bg-amber-300"></hr>
 
-				<div className="flex justify-center">
-					<WhatsApp />
-					<Instagram />
-				</div>
+						<div className="flex justify-center my-8">
+							<WhatsApp />
+							<Instagram />
+							<Maps />
+						</div>
 					</div>
 				</div>
-			</div>
+			</main>
 		</App>
 	</React.StrictMode>
 );
