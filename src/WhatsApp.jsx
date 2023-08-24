@@ -1,7 +1,7 @@
 export default function WhatsApp() {
 	const openWhatsAppChat = () => {
 		const message = encodeURIComponent("Olá, eu gostaria de fazer um pedido!");
-		const phoneNumber = "5548988444887";
+		const phoneNumber = "554888019165";
 		const url = `https://wa.me/${phoneNumber}?text=${message}`;
 		window.open(url, "_blank");
 	};

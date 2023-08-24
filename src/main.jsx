@@ -79,8 +79,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 											<ArrowRightIcon className="w-full h-full text-rose-900" />
 										</span>
 										<p className="text-rose-900 font-medium">
-											Mande uma mensagem para o WhatsApp
-											com o sabor e tamanho desejado.
+											Faça os pedidos até às 18h das
+											quintas-feiras.
 										</p>
 									</li>
 									<li className="flex items-start pb-4">
@@ -88,8 +88,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 											<ArrowRightIcon className="w-full h-full text-rose-900" />
 										</span>
 										<p className="text-rose-900 font-medium">
-											Faça os pedidos até às 18h das
-											quintas-feiras.
+											Mande uma mensagem para o WhatsApp
+											com o sabor e tamanho desejado. Pedidos estão sujeitos à lista de espera.
 										</p>
 									</li>
 									<li className="flex items-start pb-4">
