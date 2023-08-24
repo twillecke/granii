@@ -21,14 +21,14 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 								alt="logo image"
 							/>
 						</div>
-						<div className="py-4 px-8 ">
+						<div className="pt-4 px-8 ">
 							<h1 className="text-rose-900 text-2xl font-bold">
 								Focaccia Menu
 							</h1>
 							<hr className="h-px my-2 border-amber-200 border-0 rounded-md dark:bg-amber-300"></hr>
 							<div className="mt-6 flex justify-between">
 								<div></div>
-								<div className="text-rose-900 flex items-center justify-center text-xl font-medium">
+								<div className="text-rose-900 mb-2 flex items-center justify-center text-xl font-medium">
 									<span className="mx-7">P</span>
 									<span className="mx-2">G</span>
 								</div>
@@ -73,7 +73,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 						<div className="">
 							<div className="">
 								<ul className="list-disc mb-4">
-									<li className="flex items-start pb-4">
+									<li className="flex items-start pb-6">
 										<span className="w-4 h-6 flex-shrink-0 mr-2">
 											<ArrowRightIcon className="w-full h-full text-rose-900" />
 										</span>
@@ -82,7 +82,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 											quintas-feiras.
 										</p>
 									</li>
-									<li className="flex items-start pb-4">
+									<li className="flex items-start pb-6">
 										<span className="w-4 h-6 flex-shrink-0 mr-2">
 											<ArrowRightIcon className="w-full h-full text-rose-900" />
 										</span>
