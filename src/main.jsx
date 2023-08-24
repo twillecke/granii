@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 						<div>
 							<img
 								className="p-4 w-44 md:w-44 mx-auto align-middle"
-								src="./src/assets/logo_alpha.PNG"
+								src="logo_alpha.PNG"
 								alt="logo image"
 							/>
 						</div>
