@@ -1,6 +1,16 @@
 export default function WhatsApp() {
+	const openWhatsAppChat = () => {
+		const message = encodeURIComponent("Olá, eu gostaria de fazer um pedido!");
+		const phoneNumber = "5548988444887";
+		const url = `https://wa.me/${phoneNumber}?text=${message}`;
+		window.open(url, "_blank");
+	};
+
 	return (
-		<button className="fixed z-80 bottom-20 opacity-75 right-8 fill-white bg-green-500 w-16 h-16 rounded-full drop-shadow-lg flex justify-center items-center hover:bg-green-600 hover:opacity-100 hover:drop-shadow-2xl duration-300">
+		<button
+			className="fixed md:mx-6 md:relative md:right-0 md:my-4 z-80 bottom-20 md:bottom-0 opacity-40 right-8 fill-white bg-green-500 w-16 h-16 md:w-14 md:h-14 md:opacity-75  rounded-full drop-shadow-lg flex justify-center items-center hover:bg-green-600 hover:opacity-100 hover:drop-shadow-2xl duration-300"
+			onClick={openWhatsAppChat}
+		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="38"

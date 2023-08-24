@@ -5,6 +5,7 @@ import "./index.css";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import MenuItem from "./MenuItem";
 import WhatsApp from "./WhatsApp.jsx";
+import Instagram from "./Instagram.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
@@ -53,7 +54,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 							<div className="pb-6 flex justify-end">
 								<div className="font-medium text-sm text-rose-400">
 									<p>tamanho P aprox. 500g</p>
-									<p>tamanho G aprox. 500g</p>
+									<p>tamanho G aprox. 1Kg</p>
 								</div>
 							</div>
 						</div>
@@ -95,15 +96,20 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 											<ArrowRightIcon className="w-full h-full text-rose-900" />
 										</span>
 										<p className="text-rose-900 font-medium">
-											Retirada aos sábados.
+											Retirada aos sábados, no bairro Campeche, Florianópolis - SC.
 										</p>
 									</li>
 								</ul>
 							</div>
 						</div>
+					<hr className="h-px my-2 bg-gray-200 border-0 dark:bg-amber-300"></hr>
+
+				<div className="flex justify-center">
+					<WhatsApp />
+					<Instagram />
+				</div>
 					</div>
 				</div>
-				<WhatsApp/>
 			</div>
 		</App>
 	</React.StrictMode>
