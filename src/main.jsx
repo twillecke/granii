@@ -7,13 +7,14 @@ import MenuItem from "./MenuItem";
 import WhatsApp from "./WhatsApp.jsx";
 import Instagram from "./Instagram.jsx";
 import Maps from "./Maps.jsx";
+import LeafIcon from "./leafIcon.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
 		<App>
 			<main className="bg-amber-100 min-h-screen">
 				<div className="mx-auto max-w-2xl">
-					<div className="bg-amber-100"> 
+					<div className="bg-amber-100">
 						<div>
 							<img
 								className="p-4 w-44 md:w-44 mx-auto align-middle"
@@ -33,24 +34,31 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 									<span className="mx-2">G</span>
 								</div>
 							</div>
-							<MenuItem
-								title="Alecrim e sal grosso"
-								description="Vegana"
-								price_small="$35"
-								price_big="$60"
-							/>
-							<MenuItem
-								title="Pêra, gorgonzola e mel"
-								description="Vegetariana"
-								price_small="$35"
-								price_big="$65"
-							/>
-							<MenuItem
-								title="Bacon, tomate cereja e alecrim"
-								price_small="$35"
-								price_big="$60"
-							/>
-
+							<ul>
+								<li>
+									<MenuItem
+										title="Alecrim e sal grosso"
+										description="Vegana"
+										price_small="$35"
+										price_big="$60"
+									/>
+								</li>
+								<li>
+									<MenuItem
+										title="Pêra, gorgonzola e mel"
+										description="Vegetariana"
+										price_small="$35"
+										price_big="$65"
+									/>
+								</li>
+								<li>
+									<MenuItem
+										title="Bacon, tomate cereja e alecrim"
+										price_small="$35"
+										price_big="$60"
+									/>
+								</li>
+							</ul>
 							<div className="pb-6 flex justify-end">
 								<div className="font-medium text-sm text-rose-400">
 									<p>tamanho P aprox. 500g</p>
@@ -74,8 +82,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 							<div className="">
 								<ul className="list-disc mb-4">
 									<li className="flex items-start pb-6">
-										<span className="w-4 h-6 flex-shrink-0 mr-2">
-											<ArrowRightIcon className="w-full h-full text-rose-900" />
+										<span className="w-4 h-6 pt-1 mr-2">
+											<LeafIcon className="w-full h-full text-rose-900" />
 										</span>
 										<p className="text-rose-900 font-medium">
 											Faça os pedidos até às 18h das
@@ -83,17 +91,19 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 										</p>
 									</li>
 									<li className="flex items-start pb-6">
-										<span className="w-4 h-6 flex-shrink-0 mr-2">
-											<ArrowRightIcon className="w-full h-full text-rose-900" />
+										<span className="w-4 h-6 pt-1 mr-2">
+											<LeafIcon className="w-full h-full text-rose-900" />
 										</span>
 										<p className="text-rose-900 font-medium">
 											Mande uma mensagem para o WhatsApp
-											com o sabor e tamanho desejado. Pedidos estão sujeitos à lista de espera.
+											com o sabor e tamanho desejado.
+											Pedidos estão sujeitos à lista de
+											espera.
 										</p>
 									</li>
 									<li className="flex items-start pb-4">
-										<span className="w-4 h-6 flex-shrink-0 mr-2">
-											<ArrowRightIcon className="w-full h-full text-rose-900" />
+										<span className="w-4 h-6 pt-1 mr-2">
+											<LeafIcon className="w-full h-full text-rose-900" />
 										</span>
 										<p className="text-rose-900 font-medium">
 											Retire aos sábados no bairro
