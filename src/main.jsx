@@ -13,11 +13,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 		<App>
 			<main className="bg-amber-100 min-h-screen">
 				<div className="mx-auto max-w-2xl">
-					<div className="bg-amber-100">
+					<div className="bg-amber-100"> 
 						<div>
 							<img
 								className="p-4 w-44 md:w-44 mx-auto align-middle"
-								src="logo_alpha.PNG"
+								src="logo.PNG"
 								alt="logo image"
 							/>
 						</div>
